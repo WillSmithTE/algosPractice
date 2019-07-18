@@ -2,7 +2,7 @@ public class Sorting {
 
      public static void main(String []args){
         int[] unsorted = { 4, 3, 9, 2, 1 };
-        int[] sorted = sort(unsorted);
+        int[] sorted = selectionSort(unsorted);
         printArray(new int[]{1, 2, 3, 4, 9});
         printArray(sorted);
      }
